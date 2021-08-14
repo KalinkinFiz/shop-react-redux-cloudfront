@@ -7,6 +7,7 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "deploy:s3": "serverless client deploy --no-config-change --no-policy-change --no-cors-change",
+    "build:deploy": "npm run build && npm run deploy:s3",
     "client:deploy": "sls client deploy --no-config-change --no-policy-change --no-cors-change",
     "client:deploy:nc": "npm run client:deploy -- --no-confirm",
     "client:build:deploy": "npm run build && npm run client:deploy",
@@ -47,7 +48,8 @@
     "serverless": "^2.29.0",
     "serverless-finch": "^2.6.0",
     "typescript": "3.7.2",
-    "yup": "^0.29.1"
+    "yup": "^0.29.1",
+    "serverless-single-page-app-plugin": "file:./serverless-single-page-app-plugin"
   },
   "devDependencies": {
     "@testing-library/jest-dom": "^4.2.4",

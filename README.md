@@ -1,12 +1,12 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-# Task 2 (Serve SPA in AWS S3 and Cloudfront Services)
+## Task 2 (Serve SPA in AWS S3 and Cloudfront Services)
 
-| Tasks                          | Links                                                  |
-| ------------------------------ | ------------------------------------------------------ |
-| Manual deploy to S3            | http://rss-app-aws.s3-website-eu-west-1.amazonaws.com/ |
-| Manual deploy to CloudFront    | https://d2ahxbmdcffhz3.cloudfront.net                  |
-| Automatic deploy to CloudFront |                                                        |
+| Tasks                             | Links                                                  |
+| --------------------------------- | ------------------------------------------------------ |
+| Manual deploy to S3               | http://rss-app-aws.s3-website-eu-west-1.amazonaws.com/ |
+| Manual deploy to CloudFront       | https://d2ahxbmdcffhz3.cloudfront.net                  |
+| Automatic deploy to S3/CloudFront | https://d199lvwu76gdq3.cloudfront.net                  |
 
 ## Available Scripts
 
